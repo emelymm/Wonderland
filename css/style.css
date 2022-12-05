@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(0, 0, 0);
+    background-image: url(../imagens/fundos/wonderland.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+
+#intro {
+    background-image: url("../imagens/intro.png");
+    padding: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 900px 1100px;
+    height: auto;
+    width: 60%;
+}
+
+#auto {
+    background-image: url("../imagens/auto.png");
+    padding: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 900px 1100px;
+    height: auto;
+    width: 60%;
+}
+
+
+#termo {
+    background-color: rgba(0, 0, 0, 0.705);
+    border-radius: 20px;
+    padding: 50px;
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 23px;
+    text-shadow: 4px 10px 11px rgba(0, 0, 0, 0.521);
+}
+
+#botao, #enviar {
+    background-color: rgb(135, 0, 168);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    border: purple;
+    font-size: 23px;
+}
+
+.modal-header, .modal-body, .modal-footer {
+    background-color: rgba(0, 0, 0, 0.863);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#myModal{
+    background-color: rgba(129, 0, 129, 0.473);
+}
+
+#text, #email {
+    background-color: rgb(135, 0, 168);
+}
+
+#text::placeholder, #email::placeholder {
+    color: rgba(255, 255, 255, 0.575);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#text, #email {
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.custom-select, select, option {
+    background-color:  rgb(135, 0, 168);
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#creditos {
+    background-color: rgba(0, 0, 0, 0.705);
+}
+
+.links {
+    text-decoration: none; 
+    color:white;
+}

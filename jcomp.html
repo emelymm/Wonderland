@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gato Cheshire</title>
+    <link href="css/jcomp.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="jquery/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!--Menu-->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm navbar-dark" style="background-color:  rgb(17, 34, 71);">
+            <a class="navbar-brand" href="index.html">Wonderland</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="jsimples.html">Juros Simples</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="jcomp.html">Juros Compostos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="log.html">Logaritmos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="funlog.html">F. Logaritmicas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="auto.html">Autoavaliação</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <br> 
+    <!--Introdução-->
+    <div class="container-fluid">
+        <img src="imagens/clock.png" class="img-fluid" id="clock">
+        <img src="imagens/cheshirecat.png" class="img-fluid" width="20%" id="cheshire">
+    </div>
+    <br>
+    <br>
+    <div class="container-fluid">
+        <div class="fundo">
+            <img src="imagens/titulos/cheshire.png" class="img-fluid">
+            <p>Olha só quem acabamos de encontrar! Impossível você não conhecer ele, o sorridente gato Cheshire. Se você
+                não gosta de ser chamado de louco, acho melhor pular essa parte, porque de acordo com Cheshire todos
+                somos loucos, só de estar aqui você deve ser completamente louco! E não o julgo, afinal, você está vendo
+                coisas sobre matemática enquanto aprende sobre um mundo fora do normal.
+            </p>
+            <p>Você sabia que o Cheshire é simbologia misticismo e do mistério, sempre com suas frases misteriosas
+                impulsionando Alice ao perigo. Mas tem muito mais por trás desse intrigante gato, algumas pessoas falam
+                sobre a hipótese do Gato Cheshire quântico, onde afirma-se que os fótons se comportam como o gato
+                sorridente, percorrendo dois caminhos diferentes para chegar em um ponto em comum. Então na física
+                quântica, um objeto pode ser separado de uma de suas propriedades, assim como o corpo do Cheshire pode
+                ser separado do seu sorriso.
+            </p>
+            <p>Cheshire tem uma frase muito famoso dentro da história:
+                “Alice perguntou: Gato Cheshire... pode me dizer qual o caminho que eu devo tomar?
+                Isso depende muito do lugar para onde você quer ir – disse o Gato.
+                Eu não sei para onde ir! – disse Alice.
+                Se você não sabe para onde ir, qualquer caminho serve.”
+            </p>
+            <p>Se qualquer caminho serve, qualquer coisa é o mesmo que nada. Assim, essa frase demonstra que devemos
+                estruturar e planejar o que queremos. E sabe o que precisa de cuidado e planejamento? Os juros
+                compostos, que como o próprio nome diz, são compostos e um pouco mais complicados que os simples.
+            </p>
+        </div>
+        <br>
+        <br>
+        <!--Juros Compostos-->
+        <br>
+        <div class="fundo">
+            <img src="imagens/titulos/jcompostos.png" class="img-fluid">
+            <p>Diferentemente da capitalização simples, a composta é calculada sempre em relação ao último valor,
+                enquanto a simples é calculada sobre o primeiro. Então, nesse caso o montante irá variar
+                exponencialmente de acordo com o tempo.</p>
+            <p>O montante continua sendo calculado da mesma maneira que no juros simples, M = C + J, mas nesse caso os
+                juros irão mudar. Agora a fórmula do montante levando em consideração os juros será da seguinte maneira:
+            </p>
+            <p><b>M = C(1 + i)<sup>n</sup></b></p>
+            <br>
+            <center>
+                <img src="imagens/clock.png" class="img-fluid" width="35%">
+            </center>
+            <br>
+            <p>Vamos ver algumas questões relacionadas ao juros composto:</p>
+            <p>1. Qual o montante de uma aplicação à juros compostos de R$ 15.000,00, pelo prazo de 9 meses, à taxa de
+                2% ao mês.</p>
+            <p>Sabemos que:</p>
+            <div class="row">
+                <div class="col-sm-3">C = R$15.000,00</div>
+                <div class="col-sm-3">i = 2% ao mês</div>
+                <div class="col-sm-3">n = 9 meses</div>
+                <div class="col-sm-3">M = ?</div>
+            </div>
+            <p>Vamos substituir os valores para descobrir o montante na fórmula:</p>
+            <p>M = 15000(1 + 0,02)<sup>9</sup></p>
+            <p>M = 15000(1,02)<sup>9</sup></p>
+            <p>M = 15000.1,195…</p>
+            <p>M = 17926,39</p>
+            <br>
+            <center>
+                <img src="imagens/clock.png" class="img-fluid" width="35%">
+            </center>
+            <br>
+            <p>2. Sabendo-se que a taxa trimestral de juros cobrada por uma instituição financeira é de 12,486%, determinar qual o prazo em que um empréstimo de 20.000,00 será resgatado por 36.018,23. 
+            </p>
+            <p>Sabemos que:</p>
+            <div class="row">
+                <div class="col-sm-3">C = R$20.000,00</div>
+                <div class="col-sm-3">M = R$36.018,23</div>
+                <div class="col-sm-3">i = 12,486% a. tri.</div>
+                <div class="col-sm-3">n = ?</div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-sm-6"><p>Iremos substituir os valores os valores:</p></div>
+                <div class="col-sm-6"><p>36018,23 = 20000(1 + 0,12486)<sup>n</sup></p>
+                    <p>1,8009115 = (1,12486)<sup>n</sup></p></div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-sm-6"><p>Agora precisaremos utilizar o tão temido... logaritmo. Mas prometo que aqui ele não é tão difícil.</p></div>
+                <div class="col-sm-6"><p>log<sub>1,12486</sub>1,8009115 = n</p></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6"><p>Vamos igualar as bases e dividir</p></div>
+                <div class="col-sm-6"><p>log 1,8009115 / log 1,12486 = 5,00</p></div>
+            </div>
+            <p>Resposta: o prazo será de 5 trimestres.</p>
+            <br>
+            <center>
+                <img src="imagens/clock.png" class="img-fluid" width="35%">
+            </center>
+            <br>
+            <p>3. A que taxa de juros um capital aplicado pode ser resgatado, no final de 17 meses, pelo dobro do seu valor?</p>
+            <p>Sabemos que:</p>
+            <div class="row">
+                <div class="col-sm-3">n = 17 meses</div>
+                <div class="col-sm-3">i = ?</div>
+                <div class="col-sm-3">C = x</div>
+                <div class="col-sm-3">M = 2x</div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-sm-6"><p>Como não sabemos o capital e precisamos descobrir a taxa, podemos atribuir um valor para esse capital, por exemplo R$1000,00, daí o montante ser de R$2000,00.</p></div>
+                <div class="col-sm-6"><p>2000 = 1000(1 + i)<sup>17</sup></p>
+                    <p>2 = (1 + i)<sup>17</sup></p></div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-sm-6"><p>Agora iremos passar o 17 como raíz de 2</p></div>
+                <div class="col-sm-6"><p><sup>17</sup>√2 = 1 + i</p></div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-sm-6"><p>Transformaremos os <sup>17</sup>√2 em 2<sup>1/17</sup>, levando em consideração que <sup>m</sup>√x<sup>n</sup> = x<sup>n/m</sup>.</p></div>
+                <div class="col-sm-6"><p>2<sup>1/17</sup></p>
+                    <p>1,0416 = 1 + i</p>
+                    <p>i = 4,16%</p></div>
+            </div>
+            <br>
+            <center>
+                <img src="imagens/clock.png" class="img-fluid" width="35%">
+            </center>
+            <br>
+            <p>4. Um valor de R$ 200,00 foi aplicado a uma taxa de juros compostos de 3% ao mês. Estabeleça a função matemática que descreva a rentabilidade do dinheiro ao longo dos meses.</p>
+            <p>Sabemos que:</p>
+            <div class="row">
+                <div class="col-sm-3">C = R$200,00</div>
+                <div class="col-sm-3">i = 3% ao mês</div>
+                <div class="col-sm-3">n = ?</div>
+                <div class="col-sm-3">M = ?</div>
+            </div>
+            <p>Nessa questão precisamos estabelecer uma função matemática, exponencial pelo fato de ser juros compostos. Precisamos pensar que o n é uma variável independente assim como x, e que M é uma variável dependente como y. Então, podemos fazer a seguinte função e adicionar valores a n:</p>
+            <p>M = 200.1,03<sup>n</sup></p>
+            <div class="table-responsive-sm">
+                <table class="table table-bordered" id="tabela">
+                    <thead>
+                        <tr>
+                            <th>n</th>
+                            <th>M</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>M = 200.1,03<sup>1</sup> = 206</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>M = 200.1,03<sup>2</sup> = 212,18</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>M = 200.1,03<sup>3</sup> = 218,54</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+        <br>
+            <br>
+            <!--Resumo-->
+            <br>
+            <div class="fundo">
+                <img src="imagens/titulos/resumo.png" class="img-fluid">
+                <p>Aqui você poderá ver um pequeno resumo que eu fiz para a prova.</p>
+                <center>
+                    <div id="demo" class="carousel slide" data-ride="carousel" data-interval="3000">
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imagens/resumos/jcomp1.jpg" width="90%" height="90%" alt="log1" class="imagem">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagens/resumos/jcomp2.jpg"
+                                width="90%" height="90%" alt="log2" class="imagem">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagens/resumos/jcomp3.jpg"
+                                width="90%" height="90%" alt="New York" class="imagem">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </center>
+
+            </div>
+            <br>
+            <br>
+            <!--Considerações-->
+            <br>
+            <br>
+            <div class="fundo">
+                <img src="imagens/titulos/consi.png" class="img-fluid">
+                <p>Assim como nos juros simples, não tive muita dificuldade nos juros compostos. Eles são bem similares então foi bem fácil de entender, talvez os juros compostos apenas seja um pouco mais complexo para mim por conta da exponenciação, algo que ainda tenho alguns certos problemas, mas nada muito grande.</p>
+                <p>Por termos aprendido junto com os juros simples posso dizer que também tive um bom desempenho e realizei as atividades com pouca dificuldade, além de ter prestado atenção nas aulas. Assim, concluo que foi o segundo conteúdo que mais entendi neste trimestre, ficando atrás apenas do juros simples.</p>
+
+            </div>
+            <br>
+            <br>
+            <center>
+            <button type="button" class="btn btn-primary" id="botao"><a href="log.html" class="links">Continuar sua jornada</a></button>
+        </center>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="creditos">
+            <p>Fundo: <a href="https://www.bing.com/images/search?view=detailV2&ccid=RacdAiM6&id=AAD27754083EDBADEBAE22B1536D36F0CCEA6F3C&thid=OIP.RacdAiM64qYUvSCWjKevXwHaEo&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.45a71d02233ae2a614bd20968ca7af5f%3frik%3dPG%252fqzPA2bVOxIg%26riu%3dhttp%253a%252f%252fwallpapercave.com%252fwp%252fRONw2F6.jpg%26ehk%3dxiiJfrsZnwdH5Nz3I73riumDdQGRm5HuZ9Oi6jVIbgw%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1200&expw=1920&q=gato+cheshire+background&simid=608052883011797408&FORM=IRPRST&ck=0DCE8B27EB9F1944DDAEA8777ADD834E&selectedIndex=2&ajaxhist=0&ajaxserp=0" class="links">Imagem</a></p>
+            <p>Fonte: <a href="https://www.dafont.com/pt/alice-in-wonderland.font" class="links">Alice in Wonderland</a></p>
+            <p>Fotos: <a
+                href="https://www.bing.com/images/search?view=detailV2&ccid=Fq4xulr9&id=6475DAF6213AE0EE4B040FBE6FA544F4FBAC3D66&thid=OIP.Fq4xulr9qe-QyokRGLOuxQHaFj&mediaurl=https%3a%2f%2fwww.clipartkey.com%2fmpngs%2fm%2f168-1680437_alice-in-wonderland-tea-party-alice-cards-tea.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.16ae31ba5afda9ef90ca891118b3aec5%3frik%3dZj2s%252b%252fREpW%252b%252bDw%26pid%3dImgRaw%26r%3d0&exph=675&expw=900&q=alice+in+wonderland+tea+png&simid=607987736939407084&FORM=IRPRST&ck=001A608F314A8D0E97D5BAEB1ABA256E&selectedIndex=23&ajaxhist=0&ajaxserp=0"
+                class="links">Imagens</a></p>
+        </div>
+
+</body>
+
+</html>

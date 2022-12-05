@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(0, 0, 0);
+    background-image: url(../imagens/fundos/castle.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.fundo {
+    background-color: rgba(119, 0, 0, 0.479);
+    padding: 50px;
+    border-radius: 20px;
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 23px;
+    text-shadow: 4px 10px 11px rgba(0, 0, 0, 0.521);
+}
+
+.conceitos,
+th,
+td,
+ol {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    text-align: left !important;
+    text-shadow: 4px 10px 11px rgba(0, 0, 0, 0.521);
+}
+
+#tabela tbody > tr:nth-child(odd) {
+    background-color: #410000;
+}
+
+#tabela tbody > tr:nth-child(even) {
+    background-color: #000000c7;
+}
+
+#tabela tbody > tr:hover {
+    background-color: #3a3a3ac7;
+}
+
+#botao {
+    background-color: rgb(124, 3, 3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    border: rgb(102, 3, 3);
+    font-size: 23px;
+}
+
+.links {
+    text-decoration: none; 
+    color:white;
+}
+
+#creditos {
+    background-color: rgba(119, 0, 0, 0.479);
+}
+
+h1 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 4px 10px 11px rgba(0, 0, 0, 0.521);
+}
+
+#cartas{
+    z-index: -1;
+    position: fixed;
+    top: 125px;
+    right:80%;
+}
+
+#cartaas {
+    z-index: -1;
+    position: fixed;
+    bottom: 45px;
+    right: 3%;
+}

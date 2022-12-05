@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Rainha de Copas</title>
+    <link href="css/log.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="jquery/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!--Menu-->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm navbar-dark" style="background-color:  rgb(138, 0, 0);">
+            <a class="navbar-brand" href="index.html">Wonderland</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="jsimples.html">Juros Simples</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="jcomp.html">Juros Compostos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="log.html">Logaritmos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="funlog.html">F. Logaritmicas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="auto.html">Autoavaliação</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <br>
+    <!--Introdução-->
+    <div class="container-fluid">
+        <img src="imagens/cartas.png" class="img-fluid"  width="22%" id="cartas">
+        <img src="imagens/cartas1.png" class="img-fluid" width="22%" id="cartaas">
+
+    </div>
+    <br>
+    <br>
+    <div class="container-fluid">
+        <div class="fundo">
+            <img src="imagens/titulos/rainha.png" class="img-fluid">
+            <p>Olha só! A Rainha de Copas. Você deve conhecer essa tirânica, temperamental rainha que ama ordenar que
+                cortem a cabeça de quem a irrita. Então não a irrite se não quiser perder sua preciosa cabeça. Você deve
+                saber que ela representa a carta de copas, mas você conhece realmente o baralho?</p>
+            <p>Não se tem certeza de onde se começou a jogar, mas há indícios que tenham surgido na China no século X,
+                onde acredita-se que as cartas eram utilizadas para rituais de adivinhação. Porém, o baralho que jogamos
+                hoje em dia veio da França, no século XVI, com suas 52 cartas.
+            </p>
+            <p>As 52 cartas representam as 52 semanas do ano, os 4 naipes as 4 estações e as 12 cartas em sequência de
+                cada naipe representam os meses do ano. Além disso, se somarmos todos os valores das cartas chegaremos
+                no número 364, que acrescentando o coringa dá 365, o número de dias do ano.
+            </p>
+            <p>Mas, quais são os naipes? Os quatro naipes são: espadas (♠), paus (♣), copas (♥) e ouro (♦). Eles vem do
+                seus nomes originais em francês que são: carreaux (quadrados, que equivale a ouros), pique (pontas de
+                lança, as espadas), coeurs (corações, as copas) e trèfles (trevos, ou seja, paus). Como citado
+                anteriormente eles estão relacionados com as estações do ano, sendo ouros a primavera, paus o verão,
+                copas o outono e espadas o inverno. Essa associação pode estar ligada ao campo, como um calendário
+                agrícola. Além disso, os naipes também podem representar as posições sociais, como: ouros os
+                comerciantes, copas o clero e espadas os militares.
+            </p>
+            <p>As cartas dos naipes vão de 2 a 10, depois vem o J que é o valete, o Q que é a Rainha e o K que é o rei,
+                além disso a contagem pode começar ou terminar no Ás, dependendo do tipo de jogo que está jogando.
+                Aliás, o Ás se chama assim pois vem do latim “um”. Também não podemos nos esquecer do coringa, que
+                acredita-se ter surgido no baralho através de uma carta de tarô, é uma carta de grande poder considerada
+                a que pode trazer a vitória para quem a tiver, mas se eu fosse você e estivesse jogando pontinhos
+                tentaria enforcar o coringa logo porque ter ele nas mãos pode não ser lá tão vantajoso.
+            </p>
+            <p>Por fim, tem uma curiosidade muito interessante relacionada aos reis do baralho. Você sabia que eles
+                podem vir a representar grandes personalidades históricas? A figura do Rei de Paus teria uma atribuição
+                enérgica, representando Alexandre O Grande; O Rei de Espadas traria uma figura autoritária,
+                representando o rei Davi de Israel; O Rei de Ouros representaria a nobreza e estaria associada a Júlio
+                César; O Rei de Copas teria sua figura associada à dignidade, sendo representado por Carlos Magno.
+            </p>
+            <p>Agora você está sabendo muito sobre as cartas. Então é hora de enfrentar a rainha de copas e ir ver os
+                temidos logaritmos (cuidado para eles não cortarem sua cabeça fora), esses que tem quatro propriedades
+                muito importantes assim como os quatro naipes de um baralho.
+            </p>
+        </div>
+        <br>
+        <!--Logaritmos-->
+        <br>
+        <br>
+        <div class="fundo">
+            <img src="imagens/titulos/logaritmos.png" class="img-fluid">
+            <p>O logaritmo, além de ser importante para a matemática, também é importante para muitas outras áreas como
+                a computação. Ele surgiu da necessidade de facilitar certas contas. Ele é, em poucas palavras, a
+                resposta de uma pergunta: "Qual é o expoente da base 𝑎 que resulta em 𝑥?"</p>
+            <p>log<sub>𝑏</sub>𝑎 = 𝑥</p>
+            <p>log<sub>𝑏</sub>𝑎 = 𝑥&nbsp;&nbsp;&nbsp;->&nbsp;&nbsp;&nbsp;𝑎<sup>𝑥</sup> = 𝑏</p>
+            <br>
+            <ul class="conceitos">
+                <li><b>𝑏</b>: base</li>
+                <li><b>𝑎</b>: logaritmando</li>
+                <li><b>𝑥</b>: expoente</li>
+            </ul>
+            <br>
+            <center>
+            <img src="imagens/naipes.png" class="img-fluid" width="40%">
+        </center>
+            <br>
+            <h1>Condição de existência:</h1>
+            <p>Para que o logaritmos exista, devemos ter: 𝑏 > 0, 𝑎 > 0 e 𝑎 ≠ 1.</p>
+            <p>Temos alguns logaritmos especiais que podem ser calculados em calculadoras científicas, como:
+            <ul class="conceitos">
+                <li>Logaritmo de base 10:</li>
+                <p class="conceitos">log<sub>10</sub>𝑎 = log𝑎 (Quando for base 10 não precisa escrever o 10 na base)
+                </p>
+                <li>Logaritmo de base e:</li>
+                <p class="conceitos">log<sub>e</sub>𝑎 = In 𝑎</p>
+            </ul>
+            <br>
+            <center>
+                <img src="imagens/naipes.png" class="img-fluid" width="40%">
+            </center>
+            <br>
+            <h1>Consequências da definição:</h1>
+            <p>Os logaritmos tem algumas consequências de definições importantes de saber, então olhe elas abaixo:</p>
+            <ul class="conceitos">
+                <ol>
+                    <li>log<sub>𝑎</sub>1 = 0 -> Sempre que o logaritmando for 1, o expoente será 0.</li>
+                    <li>log<sub>𝑎</sub>𝑎 = 1 -> Sempre que o logaritmando for igual a base, o expoente será 1.</li>
+                    <li>log<sub>𝑎</sub>𝑎<sup>n</sup> = n -> Quando o logaritmando estiver elevado a um número e for
+                        igual a sua base, o expoente será igual o número elevado.</li>
+                    <li>𝑎<sup>log<sub>𝑎</sub>𝑏</sup> = 𝑏 -> Um número elevado a um logaritmo terá seu expoente igual
+                        ao logaritmando desse logaritmo.</li>
+                    <li>log<sub>𝑎</sub>x = log<sub>𝑎</sub>y ⟺ x = y</li>
+                </ol>
+            </ul>
+            <br>
+            <center>
+                <img src="imagens/naipes.png" class="img-fluid" width="40%">
+            </center>
+            <br>
+            <h1>Propriedades Operatórias dos Logaritmos</h1>
+            <br>
+            <p>Aqui você poderá ver algumas propriedades dos logaritmos que serão úteis na hora de realizar equações.
+            </p>
+            <div class="table-responsive-sm">
+                <table class="table table-bordered" id="tabela">
+                    <tbody>
+                        <tr>
+                            <th>Logaritmo de um Produto</th>
+                            <td>log<sub>𝑎</sub>(M.N) = log<sub>𝑎</sub>M + log<sub>𝑎</sub>N</td>
+                        </tr>
+                        <tr>
+                            <th>Logaritmo de um quociente</th>
+                            <td>log<sub>𝑎</sub>(<sup>M</sup>/<sub>N</sub>) = log<sub>𝑎</sub>M - log<sub>𝑎</sub>N</td>
+                        </tr>
+                        <tr>
+                            <th>Logaritmo de uma potência</th>
+                            <td>log<sub>𝑎</sub>M<sup>N</sup> = N.log<sub>𝑎</sub>M</td>
+                        </tr>
+                        <tr>
+                            <th>Mudança de Base</th>
+                            <td>log<sub>𝑏</sub>N = <sup>log<sub>𝑎</sub>N</sup> / <sub>log<sub>𝑎</sub>𝑏</sub></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>A operação da mundaça de base é muito utilizada para realizar questões em que se utiliza a
+                    calculadora, daí costuma-se dar o valor de 10 para a base. Além disso, nas funções exponeciais
+                    também podemos ressaltar as com raízes:</p>
+                <p>log<sub>𝑎</sub><sup>N</sup>√M = log<sub>𝑎</sub>M<sup>1/N</sup> =
+                    <sup>1</sup>/<sub>N</sub>.log<sub>𝑎</sub>M</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="fundo">
+            <img src="imagens/titulos/equacoes.png" class="img-fluid">
+            <br>
+            <p>É importante que você tenha olhado as propriedas para que agora possa entender as equações logarítmicas.
+                Para realizarmos elas, primeiro precisamos saber a condição de existência, depois teremos que manipular
+                a equação até que seja possível transformar ela em exponencial, para isso talvez tenhamos que utilizar
+                as propriedades. Vamos ver alguns exemplos!</p>
+            <p>a) log<sub>2</sub>(x - 4) = 3</p>
+            <p>x - 4 = 2<sup>3</sup></p>
+            <p>x = 12</p>
+            <br>
+            <center>
+                <img src="imagens/naipes.png" class="img-fluid" width="40%">
+            </center>
+            <br>
+            <p>b) log2 + log(x+1) - logx = 1</p>
+            <p>Aqui iremos utilizar uma propriedade ao contrário, pegaremos os logaritmos de soma e multiplicaremos
+                eles, logo depois faremos a mesma coisa com a subtração:</p>
+            <p>log2(x + 1) - logx = 1</p>
+            <p>log(<sup>2(x + 1)</sup>/<sub>x</sub>) = 1</p>
+            <p>Agora a base 10 do logaritmo passará como base do 1, então ficará 10<sup>1</sup> = 10.</p>
+            <p><sup>2(x + 1)</sup>/<sub>x</sub> = 10</p>
+            <p>2x + 2 = 10x</p>
+            <p>x = <sup>1</sup>/<sub>4</sub></p>
+            <br>
+            <center>
+                <img src="imagens/naipes.png" class="img-fluid" width="40%">
+            </center>
+            <br>
+            <p>c) log<sub>9</sub>x + log<sub>27</sub>x - log<sub>3</sub>x = -1</p>
+            <p><sup>log<sub>3</sub>x</sup>/<sub>log<sub>3</sub>9</sub> +
+                <sup>log<sub>3</sub>x</sup>/<sub>log<sub>3</sub>27</sub> - log<sub>3</sub>x = -1</p>
+            <p><sup>log<sub>3</sub>x</sup>/<sub>2</sub> + <sup>log<sub>3</sub>x</sup>/<sub></sub> - log<sub>3</sub>x =
+                -1</p>
+            <p>3(log<sub>3</sub>x) + 2(log<sub>3</sub>x) - 6(log<sub>3</sub>x) = -6</p>
+            <p>-(log<sub>3</sub>x) = -6</p>
+            <p>log<sub>3</sub>x = 6</p>
+            <p>x = 3<sup>6</sup></p>
+            <p>x = 729</p>
+            <br>
+            <center>
+                <img src="imagens/naipes.png" class="img-fluid" width="40%">
+            </center>
+            <br>
+            <p>Além das equações, os logaritmos também podem estar presentes em cálculos exponenciais, como no exemplo
+                abaixo: </p>
+            <p>Estima-se que a população de uma cidade cresça 2% a cada 5 anos. A função
+                que descreve esse crescimento é 𝑃(𝑡) = 𝑃𝑜(1,02)<sup>𝑡</sup>, sendo 𝑃𝑜 a população inicial.
+                Considerando que a população inicial era de 90.000 habitantes, em quanto
+                tempo essa população duplicará segundo esse modelo?</p>
+            <p>Quando a população duplicará ela terá que ter 90.000x2 = 180.000 habitantes. Vamos substituir os valores
+                na fórmula.</p>
+            <p>180000 = 90000(1,02)<sup>𝑡</sup></p>
+            <p>Vamos passar os 90000 dividindo</p>
+            <p>2 = 1,02<sup>𝑡</sup></p>
+            <p>Agora transformaremos em logaritmo</p>
+            <p>log<sub>1,02</sub>2 = 𝑡</p>
+            <p><sup>log2</sup>/<sub>log1,02</sub> = 𝑡</p>
+            <p>𝑡 = 35</p>
+            <p>35 x 5 = 175 anos.</p>
+        </div>
+        <br>
+        <br>
+        <!--Resumo-->
+        <br>
+        <div class="fundo">
+            <img src="imagens/titulos/resumo.png" class="img-fluid">
+            <p>Aqui você poderá ver um pequeno resumo que eu fiz para a prova.</p>
+            <center>
+            <div id="demo" class="carousel slide" data-ride="carousel" data-interval="3000">
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imagens/resumos/log1.jpg" width="90%" height="90%" alt="log1" class="imagem">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/resumos/log2.jpg"
+                        width="90%" height="90%" alt="log2" class="imagem">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/resumos/log3.jpg"
+                        width="90%" height="90%" alt="New York" class="imagem">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </center>
+
+        </div>
+        <br>
+        <br>
+        <!--Considerações-->
+        <br>
+        <br>
+        <div class="fundo">
+            <img src="imagens/titulos/consi.png" class="img-fluid">
+            <p>Já haviamos sido introduzidos aos logaritmos no segundo trimestre, mas foi a primeira vez que fiquei
+                sabendo da existência deles, então tiveram muitas coisas nesse trimestre que tive dificuldades referente
+                aos logaritmos. Já não tinha me dado muito bem com exponencial então com os logaritmos provavelmente não
+                seria diferente. </p>
+            <p>O que mais tive dificuldade foram as equações, creio que foi por conta de não saber exatamente em que
+                momento usar cada propriedade. Agora entendi um pouco mais, mas ainda tenho dificuldade com isso. Foi um
+                dos conteúdos mais complicados do ano e acho que eu poderia ter ido melhor, talvez se tivesse me
+                dedicado mais poderia ter entendido as coisas em que tive dificuldade.</p>
+
+        </div>
+        <br>
+        <br>
+        <center>
+            <button type="button" class="btn btn-primary" id="botao"><a href="funlog.html" class="links">Continuar sua
+                    jornada</a></button>
+        </center>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="creditos">
+        <p>Fundo: <a
+                href="https://www.bing.com/images/search?view=detailV2&ccid=b9ixZFiR&id=614602479C3CD6D7A96B890973C6C0ECDF0C8140&thid=OIP.b9ixZFiRCMdFPb5qVOVuRQHaEK&mediaurl=https%3a%2f%2fs-media-cache-ak0.pinimg.com%2f736x%2fa1%2f7c%2f05%2fa17c05449cf4e1d8ce275dedce9f4e31.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.6fd8b164589108c7453dbe6a54e56e45%3frik%3dQIEM3%252bzAxnMJiQ%26pid%3dImgRaw%26r%3d0&exph=414&expw=736&q=alice+in+wonderland+castle+throne+background&simid=608051564456650501&FORM=IRPRST&ck=DDBA9F477361302B93D98B090B702E26&selectedIndex=3&ajaxhist=0&ajaxserp=0"
+                class="links">Imagem</a></p>
+        <p>Fonte: <a href="https://www.dafont.com/pt/alice-in-wonderland.font" class="links">Alice in Wonderland</a></p>
+        <p>Fotos: <a href="https://www.bing.com/images/search?view=detailV2&ccid=bpFi3e5m&id=15C3982A75DBBF53909A9A47F8AC9FAEBD64FB5A&thid=OIP.bpFi3e5mtuWlHfpyYk3VGAHaCX&mediaurl=https%3A%2F%2Fblog.megajogos.com.br%2Fwp-content%2Fuploads%2F2019%2F01%2Fnaipes-565x181.png&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.6e9162ddee66b6e5a51dfa72624dd518%3Frik%3DWvtkva6frPhHmg%26pid%3DImgRaw%26r%3D0&exph=181&expw=565&q=naipes+png&simid=608048970284273434&form=IRPRST&ck=15950FEB4A3E6E4DA81F37EA33B749B6&selectedindex=10&ajaxhist=0&ajaxserp=0&vt=0&sim=11" class="links">Naipes</a> e <a
+            href="https://www.bing.com/images/search?view=detailV2&ccid=Fq4xulr9&id=6475DAF6213AE0EE4B040FBE6FA544F4FBAC3D66&thid=OIP.Fq4xulr9qe-QyokRGLOuxQHaFj&mediaurl=https%3a%2f%2fwww.clipartkey.com%2fmpngs%2fm%2f168-1680437_alice-in-wonderland-tea-party-alice-cards-tea.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.16ae31ba5afda9ef90ca891118b3aec5%3frik%3dZj2s%252b%252fREpW%252b%252bDw%26pid%3dImgRaw%26r%3d0&exph=675&expw=900&q=alice+in+wonderland+tea+png&simid=607987736939407084&FORM=IRPRST&ck=001A608F314A8D0E97D5BAEB1ABA256E&selectedIndex=23&ajaxhist=0&ajaxserp=0"
+            class="links">Cartas</a></p>
+    </div>
+
+</body>
+
+</html>
